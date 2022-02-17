@@ -13,7 +13,6 @@ class EventList extends Component {
             events: []
         }
     }
-    
 
     componentDidMount() {
         axios.get('https://api.hackthenorth.com/v3/events')

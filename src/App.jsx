@@ -3,11 +3,7 @@ import { useState } from "react";
 import { Typography, AppBar, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container, Button, makeStyles} from '@material-ui/core';
 import EventIcon from '@mui/icons-material/Event';
 import useStyles from './styles';
-import { ClassNames } from "@emotion/react";
 import EventList from './getEvents';
-
-const cards = [1,2,3,4,5,6,7,8,9];
-
 
 const App = App => {
     
@@ -36,7 +32,7 @@ const App = App => {
                         Upcoming Events
                         </Typography>
                         <Typography variant='h5' align ="center" color="textSecondary" paragraph>
-                        Hello everyone, these are the upcoming events for Hack the North. Please take a look and see if you are interested in anything.
+                        Below are upcoming events hosted by HackTheNorth. Feel free to browse around!
                         </Typography>
                         <div className={classes.button}>
                             <Grid container spacing ={2} justify="center">
