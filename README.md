@@ -16,4 +16,4 @@ You may also see any lint errors in the console.
 
 # Demo
 ![webpage1](./demo/htn1.png)
-![webpage2](./demo/ht2.png)
+![webpage2](./demo/htn2.png)
