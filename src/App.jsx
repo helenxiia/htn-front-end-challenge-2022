@@ -58,10 +58,10 @@ const App = App => {
             </main>
             <footer className={classes.footer}>
                 <Typography variant="h6" align="center" gutterBottom>
-                    Footer
+                    HackTheNorth Front End Challenge
                 </Typography>
                 <Typography variant="subtitle1" align="center" color="textSecondary">
-                    Something here to give the footer a purpose
+                    Created by Helen Xia
                 </Typography>
 
             </footer>
